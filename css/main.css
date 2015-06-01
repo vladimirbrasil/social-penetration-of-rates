@@ -64,10 +64,19 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
 }
-.item{
+.item {
   background: #204d74;    
   text-align: center;
   height: 500px;
+}
+.item.homicidio {
+  background: #001F4C;    
+}
+.item.veiculo {
+  background: #B26B00;
+}
+.item.veiculo a {
+  color: #663D00;
 }
 .carousel-caption h1 {
   font-weight: bold;
