@@ -102,8 +102,9 @@ body {
   height: 500px;
   background-color: 000;
   color: fff;
-  background: -webkit-radial-gradient(center, ellipse cover, 
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
   from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  /*background: -webkit-radial-gradient(center, ellipse cover,   from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
 }
 .carousel-caption h1 {
   font-weight: bold;
