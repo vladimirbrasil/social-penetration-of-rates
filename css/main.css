@@ -59,15 +59,51 @@ body {
   }
 }
 
+
+.sidebar {
+  display: none;
+  background-color: rgb(00,33,66);
+  color: #fff;  
+  font-size: 0.8em;
+  text-align: center;
+  height: 500px;
+  padding: 10px 35px 10px 20px;
+}
+.sidebar h4 {
+  text-align: center;
+}
+.sidebar .chamada {
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 110%;
+  font-weight: bold;
+}
+.sidebar .autor {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 110%;
+}
+
 /* carousel */
+.container-carousel {
+/*  background: #fff;*/
+  background: url(../images/bg3.jpg) no-repeat top center fixed;   
+}
+
 .carousel-caption {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
+  background-color: 000;
 }
 .item{
   background: #204d74;    
   text-align: center;
   height: 500px;
+  background-color: 000;
+  color: fff;
+  background: -webkit-radial-gradient(center, ellipse cover, 
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 .carousel-caption h1 {
   font-weight: bold;
@@ -93,6 +129,11 @@ body {
 .carousel-caption .taxas-autor {
   font-size: 0.7em;
   color: #bbf;
+}
+@media only screen and (max-width: 992px) {
+  .sidebar {
+    height: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
   .carousel-caption {
