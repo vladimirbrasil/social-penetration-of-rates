@@ -92,7 +92,7 @@ body {
 .item {
   background: #204d74;    
   text-align: center;
-  height: 500px;
+  height: 550px;
 }
 .item.homicidio {
   background: #001F4C;    
@@ -157,6 +157,19 @@ body {
   padding: 50px 0;
   /*background-color: #777;*/
 }
+.entenda-observacao {
+  color: dimgray;
+}
+.circulos-pessoais .casa {
+  border: 3px solid red;
+}
+.circulos-pessoais .familia {
+  border: 3px solid orange;
+}
+.circulos-pessoais .conhecidos {
+  border: 3px solid yellow;
+}
+
 
 /* blog */
 .post h1 a {
