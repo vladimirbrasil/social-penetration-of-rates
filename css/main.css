@@ -169,7 +169,10 @@ body {
 .circulos-pessoais .conhecidos {
   border: 3px solid yellow;
 }
-
+svg {
+  fill: red;
+/*  border: 5px solid currentColor;*/
+}
 
 /* blog */
 .post h1 a {
