@@ -16,6 +16,7 @@ body {
 	height: 100px;
 /*	border-radius: 75px;*/
     margin: 20px auto;
+    border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(/images/autor.jpg) center no-repeat;
@@ -27,6 +28,7 @@ body {
 	height: 100px;
 /*	border-radius: 75px;*/
     margin: 20px auto;
+    border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(/images/logo.svg) center no-repeat;
@@ -159,6 +161,7 @@ body {
 }
 .entenda-observacao {
   color: dimgray;
+  font-size: 0.8em;
 }
 .circulos-pessoais .casa {
   border: 3px solid red;
@@ -170,7 +173,7 @@ body {
   border: 3px solid yellow;
 }
 svg {
-  fill: red;
+/*  fill: red;*/
 /*  border: 5px solid currentColor;*/
 }
 
